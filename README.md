@@ -22,7 +22,8 @@ The **GreenML Dashboard** is a sustainable AI initiative that leverages **machin
 
 ## Getting Started
 1. Clone the repo
-2. Run `streamlit run app.py`
+2. Run 'python preprocess.py'
+3. Run `streamlit run app.py`
 
 ## Dataset
 [KAG_energydata_complete.csv](https://www.kaggle.com/datasets)
