@@ -20,9 +20,9 @@ The **GreenML Dashboard** is a sustainable AI initiative that leverages **machin
 ✅ Energy usage and environmental impact visualizations  
 ✅ Streamlit-powered UI – **ready for public deployment**  
 
-## 📂 Dataset
+## Getting Started
+1. Clone the repo
+2. Run `streamlit run app.py`
 
-- **Source:** Public dataset from Kaggle  
-- **Name:** `KAG_energydata_complete.csv`  
-- **Records:** 19,735  
-- **Features:** 29  
+## Dataset
+[KAG_energydata_complete.csv](https://www.kaggle.com/datasets)
