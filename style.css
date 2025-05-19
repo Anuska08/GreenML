@@ -1,0 +1,67 @@
+/* Base body styling */
+body, .stApp {
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #333333;
+}
+
+/* Headings */
+h1, h3 {
+    color: #0f172a;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Slider label + track styling */
+.stSlider > div {
+    color: #dc2626; /* Soft red accent */
+}
+
+.stSlider {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.stButton button {
+    background-color: #0ea5e9;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #0284c7;
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+.css-1d391kg { /* Sidebar titles */
+    color: #0f172a;
+}
+
+/* Markdown subheadings */
+h2, h4 {
+    color: #1e3a8a;
+}
+
+/* DataFrame display */
+.stDataFrame {
+    background-color: #ffffff;
+    color: #111827;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 10px;
+}
